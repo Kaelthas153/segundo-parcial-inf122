@@ -1,0 +1,38 @@
+.goal-box{
+    display: flex;
+    align-items: center;
+    
+    background-color: #FFFFFF;
+    width: 105%;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin-left: -37px;
+    height: 60px;
+}
+.goal-button-box{
+    display: flex; 
+    width: 100%;
+    align-items: end;
+    justify-content: end;
+}
+.goal-list{
+    width: 100%;
+    white-space: nowrap;
+
+}
+.goal-button{
+    width: 10%;
+    background-color: #FFFFFF;
+    border: none;
+}
+.check-button{
+    background-color: #FFFFFF;
+    border: none;
+    margin-right: 10px;
+}
+.icon{
+    cursor:pointer;
+}
+.striked {
+    text-decoration: line-through;
+}
